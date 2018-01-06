@@ -1,0 +1,6 @@
+flask--app:
+  build: ./flask--app
+  ports:
+   - "5000:5000"
+  volumes:
+   - .:/code
